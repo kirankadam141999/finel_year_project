@@ -1,0 +1,68 @@
+/*nabbar page */
+.logo_name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222831;
+    
+}
+.navbar_colour{
+    background-color: #00ADB5;
+}
+
+/* landing page */
+.landing_page_logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.landing_page_logo_name{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+
+  /* spinner progressbar */
+  .spinner{
+    position: absolute; 
+     bottom: 20px;
+    /* transform: translate(-50%, -50%); */
+    font-weight: bold;
+  }
+
+  /* user regirstraion page css */
+  .UR_page{
+    background-color: #222831;
+  }
+  .UR_contain{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .login_g_button{
+border-radius: 5px;
+    background-color: #F4B400;
+    border: none;
+    padding: 10px;
+    margin-top: 30px;
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: #DB4437;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);  
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+}
+.login_g_button:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.UR_wellcom_m{
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
